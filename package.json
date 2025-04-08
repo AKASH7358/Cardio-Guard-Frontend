@@ -13,7 +13,7 @@
     "axios": "^1.8.1",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
-    "pdfjs-dist": "^4.10.38",
+    "pdfjs-dist": "^3.0.279",
     "popper.js": "^1.16.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
