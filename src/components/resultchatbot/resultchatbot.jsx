@@ -25,7 +25,7 @@ const ResultChatbot = () => {
             setMessage("");
     
             try {
-                const response = await fetch("https://cardio-guard-backend.onrender.com/chatbot", {
+                const response = await fetch("http://127.0.0.1:10000/chatbot", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
