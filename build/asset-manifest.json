@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8591a4d7.css",
-    "main.js": "/static/js/main.aa7f2aa0.js",
+    "main.js": "/static/js/main.d5ee703e.js",
     "static/media/hack-logo.png": "/static/media/hack-logo.5ae1e822c99c335c9d3b.png",
     "static/media/cardio-guard-logo.png": "/static/media/cardio-guard-logo.01ef2bd371ce4b0a1440.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,10 +10,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.8591a4d7.css.map": "/static/css/main.8591a4d7.css.map",
-    "main.aa7f2aa0.js.map": "/static/js/main.aa7f2aa0.js.map"
+    "main.d5ee703e.js.map": "/static/js/main.d5ee703e.js.map"
   },
   "entrypoints": [
     "static/css/main.8591a4d7.css",
-    "static/js/main.aa7f2aa0.js"
+    "static/js/main.d5ee703e.js"
   ]
 }
