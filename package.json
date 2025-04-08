@@ -15,7 +15,7 @@
     "jquery": "^3.7.1",
     "pdfjs-dist": "^3.0.279",
     "popper.js": "^1.16.1",
-    "react": "^19.0.0",
+    "react": "^18.2.0",
     "react-dom": "^19.0.0",
     "react-dropzone": "^14.3.8",
     "react-glitch-image": "^1.4.0",
