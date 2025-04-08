@@ -1,0 +1,50 @@
+.time-container {
+    display: flex;
+    padding-top:5%;
+    justify-content: start;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Full viewport height to center the content vertically */
+    background-color: #000;   /* Optional: Background color */
+    flex-direction: column;   /* Stack the items in a column */
+  }
+  
+  .glitch-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .countdown-txt {
+    color: white;
+    margin-top: 3%;  /* Add space between the logo and countdown text */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 102rem;    /* Adjust the font size */
+    font-weight: bold;
+  }
+  /* timer.scss */
+.button-container {
+    margin-top: 20px; /* Adjust spacing as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bt{
+    margin: 0 10px; /* Spacing between buttons */
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white; /* Change text color */
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index:9999;
+  }
+  
+  .bt:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

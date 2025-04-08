@@ -1,0 +1,63 @@
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Added to handle responsiveness */
+}
+
+.about-us hr {
+    position: relative;
+    border: none;
+    background-color: #acacac70;
+    height: 1px;
+    width: 80%;
+    margin: auto;
+}
+
+.ai {
+    color: blueviolet;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about-text {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.carousel {
+    width: 50%;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack content vertically on small screens */
+        align-items: center;
+    }
+
+    .about-text, .carousel {
+        width: 100%; /* Make both text and carousel take full width */
+        padding: 0;
+    }
+
+    .about-text {
+        padding-bottom: 20px; /* Add spacing between text and image on mobile */
+    }
+
+    .carousel img {
+        border-radius: 5px; /* Smaller border radius for smaller screens */
+    }
+}

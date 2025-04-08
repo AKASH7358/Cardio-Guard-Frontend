@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.butn {
+  position: relative;
+  background: none;
+  color: #ebedf0; /* Button text color */
+  font-size: 2rem;
+  border: 2px solid #eef1f3; /* Border color */
+  padding: 1rem 2rem;
+  transition: all 0.25s;
+}
+.butn-container{
+    text-align: center;
+    margin-top:4%;
+}
+.butn:hover {
+  border-color: #f6f7f8; /* Darker blue on hover */
+  color: white;
+  background-color: #ebeff4;
+  box-shadow: 0 0.5em 0.7em -0.4em #070808;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+@media screen and (min-width: 350px) and (max-width: 800px){
+
+.butn-container{
+    margin-top:12%;
+
+}
+}
